@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h_back"
+    android:gravity="center"
+    tools:context="com.example.domka.menhajAlsaleheen.app.Others.AboutAppActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/li_about"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="120dp"
+            android:gravity="center"
+
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="250dp"
+                android:layout_height="500dp"
+                android:background="@drawable/about"/>
+
+
+        </LinearLayout>
+
+        <ScrollView
+            android:layout_height="200dp"
+            android:layout_width="match_parent"
+            android:layout_marginLeft="5dp"
+            android:paddingTop="10dp"
+            android:background="@drawable/h_circle"
+            android:layout_marginRight="5dp"
+
+            android:scrollbars="none"
+            android:layout_marginTop="-120dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+
+                android:gravity="center"
+                android:orientation="vertical"
+
+                android:layout_marginTop="10dp"
+                android:paddingBottom="150dp"
+                android:textColor="@color/black">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/my_about"
+                    android:text="بواسطة"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/my_about"
+                    android:text="معهد تراث الانبياء"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/my_about"
+                    android:text="turath-alanbiaa.org"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/my_about"
+                    android:text="برمجة"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:textColor="@color/my_about"
+                    android:text="كرار حساني الزبيدي"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor="@color/my_white_coloer"
+                    android:text="prog.karrar@gmail.com"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor="@color/my_white_coloer"
+                    android:text="تصميم"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor="@color/my_white_coloer"
+                    android:text="حسام الدين"/>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor="@color/my_white_coloer"
+                    android:text="redrom90@gmail.com"/>
+
+
+            </LinearLayout>
+
+        </ScrollView>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>

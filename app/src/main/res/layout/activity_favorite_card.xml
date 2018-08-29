@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_part"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/edit_text_style"
+
+    tools:context="com.example.domka.menhajAlsaleheen.app.Controller.PartController.PartActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:background="@drawable/h_back"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+
+        <LinearLayout
+            android:id="@+id/li_setting2"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:layout_gravity="center"
+
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="5dp"
+            >
+
+
+            <Button
+
+                android:id="@+id/btn_back_favorit_card"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_arrow_back_white_24dp"/>
+
+
+            <Button
+                android:id="@+id/btn_s_share_favorit_card"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_reply_white_24dp"/>
+
+
+            <Button
+                android:id="@+id/btn_s_unset_favorite_favorit_card"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_bookmark_border_white_24dp"/>
+
+
+            <Button
+                android:id="@+id/btn_open_favorit_card"
+                android:layout_width="20dp"
+                android:layout_height="20dp"
+                android:layout_margin="15dp"
+                android:background="@drawable/ic_open_in_new_white_24dp"/>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+
+        android:layout_alignParentTop="true"
+
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="30dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+
+            android:layout_marginTop="55dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+
+            <LinearLayout
+                android:id="@+id/card_view"
+                android:layout_width="match_parent"
+
+                android:layout_height="match_parent"
+
+                >
+
+
+                <LinearLayout
+                    android:id="@+id/li_for_scroll"
+                    android:layout_width="fill_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="@color/my_black_coloer"
+
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <ScrollView
+                        android:id="@+id/s1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_margin="10dp"
+                        android:scrollbars="none"
+
+                        >
+
+
+                        <TextView
+                            android:id="@+id/tv_page_content_card"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:gravity="right"
+
+
+                            android:text="content"
+                            android:textColor="@color/my_white_coloer"
+                            android:textIsSelectable="true"
+
+
+                            android:textSize="22sp"
+
+                            />
+
+                    </ScrollView>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/tv_current_page"
+            android:layout_width="50dp"
+
+            android:layout_height="20dp"
+
+            android:layout_marginTop="-27dp"
+            android:background="@drawable/edit_text_style"
+            android:gravity="center"
+            android:text="TextView"
+            android:textColor="@color/black"
+
+            android:textSize="15sp"/>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

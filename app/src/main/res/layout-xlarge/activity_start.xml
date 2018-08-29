@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_start_"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/h_back"
+              android:orientation="vertical"
+              tools:context=".app.Controller.MainController.Start_Activity">
+
+
+    <Button
+        android:id="@+id/btn_setting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_margin="15dp"
+
+        android:background="@drawable/ic_settings_white_24dp"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginTop="-60dp"
+        android:layout_marginBottom="60dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="-80dp"
+            android:gravity="center"
+            tools:ignore="UselessParent">
+
+            <LinearLayout
+                android:layout_width="180dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_marginTop="70dp"
+
+                android:gravity="center"
+                android:orientation="vertical"
+                android:weightSum="1">
+
+                <LinearLayout
+                    android:id="@+id/li_menhaj"
+                    android:layout_width="140dp"
+                    android:layout_height="500dp"
+                    android:layout_margin="5dp"
+                    android:layout_marginTop="30dp"
+                    android:background="@drawable/h_mehaj"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/li_content"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="150dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/li_Show_part"
+                        android:layout_width="100dp"
+
+                        android:layout_height="240dp"
+                        android:layout_marginBottom="50dp"
+                        android:background="@drawable/h_tasafah"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+
+                    <LinearLayout
+                        android:id="@+id/li_show_thematic"
+
+                        android:layout_width="100dp"
+                        android:layout_height="240dp"
+                        android:layout_marginTop="50dp"
+                        android:background="@drawable/h_division"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="50dp"
+                    android:gravity="left"
+
+                    android:orientation="vertical">
+
+                    <LinearLayout
+                        android:id="@+id/li_show_notice"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="0.03"
+                        android:background="@drawable/h_note"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        tools:ignore="InefficientWeight">
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/li_goto_question"
+                        android:layout_width="260dp"
+                        android:layout_height="100dp"
+                        android:background="@drawable/h_goto"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:id="@+id/li_show_favorite"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@drawable/h_favorite"
+                        android:gravity="center"
+                        android:orientation="horizontal">
+
+
+                    </LinearLayout>
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/li_show_search"
+            android:layout_width="360dp"
+            android:layout_height="100dp"
+            android:layout_margin="15dp"
+            android:background="@drawable/h_search"
+            android:gravity="center"
+android:visibility="gone"
+            android:orientation="horizontal">
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+
+        android:layout_width="550dp"
+        android:layout_height="220dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="-80dp"
+        android:background="@drawable/h_circle"
+        android:gravity="center"
+        android:orientation="horizontal">
+    </LinearLayout>
+</LinearLayout>

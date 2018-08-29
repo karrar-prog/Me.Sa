@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_part"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/h_back"
+    tools:context="com.example.domka.menhajAlsaleheen.app.Controller.PartController.PartActivity">
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/setting_back"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:gravity="center"
+        android:layout_height="50dp">
+        <TextView
+            android:layout_marginTop="10dp"
+            android:id="@+id/tv_title"
+            android:layout_width="90dp"
+            android:gravity="center"
+            android:padding="2dp"
+            android:background="@drawable/edit_text_style"
+            android:layout_height="wrap_content"
+            android:textSize="18dp"
+            android:text="المحفوظات"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="55dp"
+
+        android:orientation="vertical"
+        >
+
+        <ListView
+            android:id="@+id/list_view_favorite"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+
+            android:footerDividersEnabled="true"
+
+            android:background="@drawable/back_opacity"
+            android:padding="10dp"
+            android:scrollbars="none">
+
+        </ListView>
+
+    </LinearLayout>
+
+
+</RelativeLayout>

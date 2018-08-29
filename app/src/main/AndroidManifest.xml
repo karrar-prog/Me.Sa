@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          xmlns:tools="http://schemas.android.com/tools"
+          package="com.example.domka.menhajAlsaleheen">
+
+    <uses-permission android:name="android.permission.INTERNET">
+    </uses-permission>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE">
+    </uses-permission>
+
+    <application
+        android:allowBackup="true"
+        android:allowClearUserData="false"
+        android:icon="@drawable/icon_app"
+        android:label="@string/app_name"
+        android:supportsRtl="false"
+        android:theme="@style/AppTheme"
+        tools:replace="android:supportsRtl">
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.MainController.Start_Activity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.PartController.CoverFlow.CoverFlowActivity"
+            android:label="@string/app_name">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.PartController.PartActivity"
+            android:label="@string/s_book_parts"
+            android:theme="@style/AppTheme">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.SettingController.SettingActivity"
+            android:label="@string/s_setting">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.SearchController.SearchActivity"
+            android:label="@string/s_search">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.FavoriteController.FavoriteActivity"
+            android:label="@string/s_favorite">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.ThematicController.ThematicActivity"
+            android:label="@string/s_thimatic">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.GoToQuestionController.GoToQuestionActivity"
+            android:label="@string/s_go_to_question"
+            android:theme="@style/Base.Theme.AppCompat.Dialog">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.NoteController.NoticeActivity"
+            android:label="@string/s_note">
+        </activity>
+        <activity android:name="com.example.domka.menhajAlsaleheen.app.MyEnterFace.MyDefultActivity">
+        </activity>
+        <activity android:name="com.example.domka.menhajAlsaleheen.app.Controller.PartController.PartContentActivity">
+        </activity>
+        <activity android:name="com.example.domka.menhajAlsaleheen.app.Controller.PartController.ListActivity">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.SplashScreen.SplashScreenActivity"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.FavoriteController.FavoriteCardActivity"
+            android:label="المحفوظات"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Others.AboutAppActivity"
+            android:label="">
+        </activity>
+        <activity
+            android:name="com.example.domka.menhajAlsaleheen.app.Controller.NoteController.NoteCardActivity"
+            android:label="ملاحظاتك حول هذه الصفحة"
+            android:theme="@style/Base.Theme.AppCompat.Light.Dialog">
+        </activity>
+        <activity android:name="com.example.domka.menhajAlsaleheen.app.Others.AboutDeveloperActivity">
+        </activity>
+        <activity android:name="com.example.domka.menhajAlsaleheen.app.Others.ConnectUsActiviyt">
+        </activity>
+        <activity android:name="com.example.domka.menhajAlsaleheen.app.Others.MapActivity">
+        </activity>
+        <activity android:name="com.example.domka.menhajAlsaleheen.app.Others.FontSettingActivity"
+                  android:label="اختر نوع الخط"
+                  android:theme="@style/Base.Theme.AppCompat.Light.Dialog">
+        </activity>
+    </application>
+
+</manifest>

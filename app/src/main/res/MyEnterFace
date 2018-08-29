@@ -1,0 +1,53 @@
+
+ //belew oncreate fuction
+ MyRefrence();
+        MyCilckListener();
+        MyAnimation();
+        //-----------------------------
+        setFont(3);
+        //--------------------
+
+
+    }
+
+
+
+    private void MyAnimation()
+    {
+        Animation animation1 = AnimationUtils.loadAnimation(getApplicationContext(), R.anim.slide_down);
+
+        btn_back.startAnimation(animation1);
+    }
+
+    private void MyCilckListener()
+    {
+        final Intent i0 = new Intent(this, SettingActivity.class);
+
+        //----------------------------------
+        btn_back.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick(View v)
+            {
+                startActivity(i0);
+                finish();
+            }
+        });
+
+    }
+
+    private void MyRefrence()
+    {
+        btn_back = (Button) findViewById(R.id.btn_setting);
+        //-------------------------
+
+    }
+
+    private void setFont(int fontID)
+    {
+        //------------------------------------------------
+        Font font = new Font();
+       // font.set_font(this, fontID, t1, t2, t3, t4, t5, t6, t7);
+        //-----------------------------------------------
+    }
+}

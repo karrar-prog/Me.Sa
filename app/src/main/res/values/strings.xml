@@ -1,0 +1,119 @@
+<resources>
+    <string name="app_name">منهاج الصالحين</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">الاعدادات</string>
+    <string name="title_activity_settings">setting</string>
+
+    <!-- Strings related to Settings -->
+    <string name="title1">الجزء الاول - العبادات</string>
+
+    <string name="title2">الجزء الثاني - المعاملات</string>
+
+    <string name="title3">الجزء الثالث - المعاملات</string>
+
+    <string name="title4">Dishonored</string>
+    <!-- Example General settings -->
+    <string name="pref_header_general">عام</string>
+
+    <string name="pref_title_social_recommendations">تفعيل الرؤية الليلية</string>
+    <string name="pref_description_social_recommendations">عند التفعيل تكون الخلفية باللون الاسود والخط باللون الابيض</string>
+
+    <string name="pref_title_display_name">Display name</string>
+    <string name="pref_default_display_name">John Smith</string>
+
+    <string name="pref_title_add_friends_to_messages">تغيير الخط</string>
+    <string-array name="pref_example_list_titles">
+        <item>اللهم صلِ على محمد وآل محمد</item>
+        <item>اللهم صلِ على محمد وآل محمد</item>
+        <item>اللهم صلِ على محمد وآل محمد</item>
+
+    </string-array>
+    <string-array name="pref_example_list_values">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+
+    <string name="pref_title_change_size">حجم الخط</string>
+    <string-array name="pref_example_list_titles_change_size">
+        <item>صغير</item>
+        <item>متوسط</item>
+        <item>كبير</item>
+
+    </string-array>
+    <string-array name="pref_example_list_values_chang_size">
+        <item>1</item>
+        <item>0</item>
+        <item>-1</item>
+    </string-array>
+    <!-- Example settings for Data & Sync -->
+    <string name="pref_header_data_sync">Data &amp; sync</string>
+
+    <string name="pref_title_sync_frequency">Sync frequency</string>
+    <string-array name="pref_sync_frequency_titles">
+        <item>15 minutes</item>
+        <item>30 minutes</item>
+        <item>1 hour</item>
+        <item>3 hours</item>
+        <item>6 hours</item>
+        <item>Never</item>
+    </string-array>
+    <string-array name="pref_sync_frequency_values">
+        <item>15</item>
+        <item>30</item>
+        <item>60</item>
+        <item>180</item>
+        <item>360</item>
+        <item>-1</item>
+    </string-array>
+
+    <string-array name="list_preference_entries">
+        <item>Entry 1</item>
+        <item>Entry 2</item>
+        <item>Entry 3</item>
+    </string-array>
+
+    <string-array name="list_preference_entry_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="multi_select_list_preference_default_value"/>
+
+    <string name="pref_title_system_sync_settings">System sync settings</string>
+
+    <!-- Example settings for Notifications -->
+    <string name="pref_header_notifications">send note</string>
+
+    <string name="pref_title_new_message_notifications">New message notifications</string>
+
+    <string name="pref_title_ringtone">Ringtone</string>
+    <string name="pref_ringtone_silent">Silent</string>
+
+    <string name="pref_title_vibrate">Vibrate</string>
+    <string name="s_part1">الجزء الاول - العبادات</string>
+    <string name="s_part2">الجزء الثاني - المعاملات</string>
+    <string name="s_part3">الجزء الثالث - المعاملات</string>
+    <string name="s_thimatic">التقسيم الموظوعي</string>
+    <string name="s_note">ملاحظة</string>
+    <string name="s_favorite">المفضلة</string>
+    <string name="s_show_part">تصفح الكتاب</string>
+    <string name="s_menhaj">منهاج الصالحين</string>
+    <string name="s_book_parts">اجزاء الكتاب</string>
+    <string name="s_setting">الاعدادات</string>
+    <string name="s_search">البحث</string>
+    <string name="s_go_to_question">ذهاب الى مسألة</string>
+    <string name="s_page_no">الصفحة</string>
+    <string name="s_empty_page">الصغحة فارغة</string>
+    <string name="s_list">الفهرس</string>
+    <string name="s_font_size">حجم الخط</string>
+    <string name="s_font_type">نوع الخط</string>
+    <string name="s_text_format">تنسيق</string>
+    <string name="title_activity_setting_and_info">SettingAndInfo</string>
+    <string name="s_delete">حذف</string>
+    <string name="s_part">الجزء</string>
+</resources>

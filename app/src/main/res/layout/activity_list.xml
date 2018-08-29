@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h_back"
+    tools:context="com.example.karrarhassany.fruitsproject.StoreItemDetails">
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/setting_back"/>
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="70dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/edit_text_style"
+        android:gravity="center"
+        android:text="@string/s_list"/>
+
+    <ListView
+
+        android:id="@+id/list_view_item"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="55dp"
+
+        android:background="@drawable/back_opacity"
+        android:padding="10dp"
+        android:scrollbars="none"
+
+
+        />
+
+
+</RelativeLayout>

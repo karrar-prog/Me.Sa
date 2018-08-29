@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_part"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/h_back"
+    tools:context="com.example.domka.menhajAlsaleheen.app.Controller.PartController.PartActivity">
+
+
+    <Button
+        android:id="@+id/btn_back"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_margin="15dp"
+        android:background="@drawable/setting_back"/>
+
+
+    <LinearLayout
+        android:id="@+id/l1"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="45dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        >
+        <android.support.v7.widget.SearchView
+            android:id="@+id/search_view_content"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:layout_marginBottom="3dp"
+            android:gravity="center"
+            android:padding="3dp"
+            android:queryHint="ابحث عن كلمة في الكتاب"
+            card_view:queryBackground="@drawable/slider_bg"
+            card_view:queryHint="ابحث عن كلمة في الكتاب"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+
+            android:orientation="vertical"
+            >
+
+            <ListView
+                android:id="@+id/list_view_favorite"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+
+                android:footerDividersEnabled="true"
+
+                android:background="@drawable/back_opacity"
+                android:padding="10dp"
+                android:scrollbars="none">
+
+            </ListView>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
