@@ -79,6 +79,7 @@ public class Start_Activity extends AppCompatActivity
     LinearLayout li_show_thematic;
     LinearLayout li_content;
     LinearLayout li_menhaj;
+    LinearLayout li_low;
     Typeface tf1;
     //----------------------------
     Integer co = 0;
@@ -310,8 +311,7 @@ public class Start_Activity extends AppCompatActivity
 
         YoYo.with(Techniques.RotateIn).duration(700)
             .playOn(li_content);
-        YoYo.with(Techniques.FlipInY).duration(800)
-                .playOn(li_Show_part);
+
         YoYo.with(Techniques.RotateInDownLeft).duration(900)
                 .repeat(1)
                 .playOn(li_show_notice);
@@ -321,8 +321,10 @@ public class Start_Activity extends AppCompatActivity
         YoYo.with(Techniques.RotateInDownLeft).duration(1100)
                 .repeat(1)
                 .playOn(li_show_favorite);
-        YoYo.with(Techniques.RotateInDownLeft).duration(1200)
+        YoYo.with(Techniques.RotateInDownLeft)
                 .repeat(1)
+                .delay(500)
+                .duration(600)
                 .playOn(li_show_search);
         YoYo.with(Techniques.FadeOutUp)
                 .duration(0)
@@ -333,6 +335,27 @@ public class Start_Activity extends AppCompatActivity
                 .duration(2600)
                 .repeat(1)
                 .playOn(li_show_thematic);
+        YoYo.with(Techniques.FadeOut)
+                .delay(0)
+                .duration(0)
+                .repeat(1)
+                .playOn(li_low );
+        YoYo.with(Techniques.BounceInLeft)
+                .delay(1500)
+                .duration(5600)
+                .repeat(1)
+                .playOn(li_low );
+        YoYo.with(Techniques.Wobble)
+                .delay(5500)
+                .duration(45600)
+                .repeat(5)
+                .playOn(li_low );
+        YoYo.with(Techniques.Flash)
+                .delay(7500)
+                .duration(600)
+                .repeat(12)
+                .playOn(li_Show_part);
+
     }
 
     private void MyCilckListener()
@@ -440,6 +463,7 @@ public class Start_Activity extends AppCompatActivity
         li_show_thematic = (LinearLayout) findViewById(R.id.li_show_thematic);
         li_content = (LinearLayout) findViewById(R.id.li_content);
         li_menhaj = (LinearLayout) findViewById(R.id.li_menhaj);
+        li_low = (LinearLayout) findViewById(R.id.li_low);
         //-------------------------------------
         AssetManager mngr = this.getAssets();
 

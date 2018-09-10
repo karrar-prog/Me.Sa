@@ -169,7 +169,7 @@
     </LinearLayout>
 
     <LinearLayout
-
+android:id="@+id/li_low"
         android:layout_width="550dp"
         android:layout_height="220dp"
         android:layout_gravity="center"
